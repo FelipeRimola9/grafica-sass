@@ -107,6 +107,38 @@ header {
   padding-bottom: 100px;
 }
 
+h1 {
+  color: #343533;
+}
+
+.alerta, .error, .acceso {
+  padding: 15px;
+  font-size: 1.2em;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 5px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #fff;
+  background: yellow;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+.error, .acceso {
+  background: red;
+  font-size: 10px;
+}
+
+.acceso {
+  background: #00e1ff;
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -135,7 +167,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-  color: #6495ED;
+  color: #ED3237;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
@@ -191,7 +223,7 @@ nav ul a:hover {
 
 .servicios .tipo-servicios i {
   font-size: 30px;
-  color: #6495ED;
+  color: #ED3237;
 }
 
 footer {

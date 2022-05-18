@@ -72,7 +72,7 @@ h3 {
 
 .btn-principal {
   color: #fff;
-  background-color: #6495ED;
+  background-color: #ED3237;
 }
 
 .btn-secundario {
@@ -120,7 +120,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-  color: #6495ED;
+  color: #ED3237;
   transform: scale(1.1);
 }
 
@@ -161,7 +161,7 @@ nav ul a:hover {
 
 .servicios .tipo-servicios i {
   font-size: 30px;
-  color: #6495ED;
+  color: #ED3237;
 }
 
 footer {
